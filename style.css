@@ -1,0 +1,81 @@
+/* set a style for the whole page with a background color and different font sizes for the headers
+  Include pseudo-classes */
+
+* {
+  box-sizing: border-box;
+}
+
+a:link { color: #0A0908; }
+a:visited { color: #A9927D; }
+a:hover { color: #22333B;  }
+a:active { color: #5E503F; }
+
+body {
+  background-color: #5E503F;
+  background-image: url("/images/stone-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #0A0908;
+  font-family: "Garamond", "Times New Roman",serif;
+  font-size: 18px;
+}
+
+img, .border-grey {
+  border: 5px solid #587792;
+}
+
+nav {
+  text-align: center; 
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 25x;
+  color: #A9927D;
+  background-color: #22333B;
+}
+
+h1, h2, h3, footer {
+  text-align: center;
+}
+
+main {
+    margin: 100px 200px 100px 200px;
+}
+
+.hr-top {
+  border-top: 5px solid #C99DA3;
+  border-bottom: 5px solid #587792;
+  border-radius: 10px;
+  width: 75%;
+}
+
+.hr-bottom {
+  border-top: 5px solid #587792;
+  border-bottom: 5px solid #C99DA3;
+  border-radius: 10px;
+  width: 75%;
+}
+
+.block-format {
+  background-color: #C99DA3;
+  margin: 10px;
+  padding: 20px;
+}
+
+.block-heading {
+  background-color: #5E503F;
+  text-align: center;
+}
+
+.center-image {
+  text-align:center;
+  display:block;
+}
