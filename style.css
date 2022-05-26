@@ -5,10 +5,14 @@
   box-sizing: border-box;
 }
 
+/* Setting the colors for the links */
+
 a:link { color: #0F1112; }
 a:visited { color: #14101B; }
 a:hover { color: #5E5C61;  }
 a:active { color: #65748B; }
+
+/* Body base settings that include the background image - and if no image is possible, it has a nice brown base */
 
 body {
   background-color: #5E503F;
@@ -20,13 +24,7 @@ body {
   font-size: 18px;
 }
 
-img, .border-grey {
-  border: 5px solid #14101B;
-}
-
-nav {
-  text-align: center; 
-}
+/* setting standard sizes for the headings */
 
 h1 {
   font-size: 40px;
@@ -36,6 +34,8 @@ h2 {
   font-size: 35px;
 }
 
+/* h3 needs a bit more custom work, so this will make the size a bit bigger and help it stand out more as a divider */
+
 h3 {
   font-size: 25x;
   color: #A9927D;
@@ -44,13 +44,26 @@ h3 {
   padding: 10px 0;
 }
 
-h1, h2, h3, footer {
+/* align the tet for most heading and link elements to center */
+
+h1, h2, h3, footer, nav {
   text-align: center;
 }
+
+/* set the main and footer margins but leave the top to no margins
+so it will show more of the background but also just give a thinner look */
 
 main, footer {
     margin: 100px 200px 100px 200px;
 }
+
+/* sets the border for the image and grey class to help them stand out a little bit against the background */
+
+img, .border-grey {
+  border: 5px solid #5E5C61;
+}
+
+/* make the hr have a top and bottom border, but adjust so that the top and bottom are relative to the image in the middle */
 
 .hr-top {
   border-top: 5px solid #14101B;
@@ -66,6 +79,8 @@ main, footer {
   width: 75%;
 }
 
+/* Some block formatting classes to set the margins and text in the boxes so they have some space(padding) around the edges and a nice border.*/
+
 .block-format {
   background-color: #C99DA3;
   margin: 10px;
@@ -77,13 +92,14 @@ main, footer {
   text-align: center;
 }
 
+/* set the contact links and non nav links that are on their own section with a border and background */
+
 .block-links {
   background-color: #C99DA3;
   border: 5px solid #14101B;
-  align: center;
-  display: block;
-  text-align: center;
 }
+
+/* centers the image based on it being a block */
 
 .center-image {
   text-align:center;
