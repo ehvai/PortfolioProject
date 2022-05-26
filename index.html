@@ -15,28 +15,34 @@
   -->
 <header>
     <!-- Title that has my name and navigation bar  -->
-  <div class="block-heading border-grey">
 
+  <!-- This div is for the block of the title, name and nav bar -->
+<div class="block-heading border-grey">
+
+  <!-- headings 1 and 2 with top break bar -->
   <h1>A Little Something About</h1>
   <h2>Erica Wallbridge</h2>
   <hr class="hr-top">
+  
 <!-- div to make the picture centered on the page -->
-  <div class="center-image">
-    <img src="images/picture-of-me.jpg" alt="Picture of me" width=200>
-  </div>
-    
-<!-- navigation bar to let you get quickly to each segment -->  
-    <div class="block-heading"> 
-     <nav>
-      <a href="#intro">Intro</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-     </nav>
+    <div class="center-image">
+      <img src="images/picture-of-me.jpg" alt="Picture of me" width=200>
     </div>
-    
-   <hr class="hr-bottom">
-    
+
+<!-- break bar to define the image better -->
+  
+  <hr class="hr-bottom">
+  
+<!-- nav bar -->  
+  <div class="block-links">
+  <nav>
+    <a href="#intro">Intro</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
   </div>
+    
+</div>
 </header>
   
 <main>
@@ -47,11 +53,11 @@
       <p>I am a Software Engineer looking to expand my experience and creative side.</p>
       <p>Living in Maryland affords a few interesting things such as:</p>
     
-        <ul>
+        <ol>
           <li>Wait, you have seasons?  We have weather occurences.</li>
           <li>Living an hour from Washington, D.C., the Capital of the United States.</li>
           <li>Three hours from a beach, multiple states and some beautiful mountain trails.</li>
-        </ul>
+        </ol>
       <p>With the pandemic making a big change to how we live, work and relax, new opportunities arise in unique ways.  If you <a href="#contact">want to chat</a>, I am always available.</p>
     </article>
   </div>
@@ -61,28 +67,36 @@
      <h3>About Me</h3>
 <!-- set the same format for the block of text and heading -->
     <div class="block-format border-grey">
-    <p>Here are a few questions to get us started:
-    </p>
-  <ol>
+    <p>Here are a few questions to get us started:</p>
+
+<!-- unordered list of questions to answer -->
+      <ul>
     <li>Where were you born?</li>
-    <p>I was born in Perth, Australia.</p>
     <li>Why are you pursuing education as a Software Engineer?</li>
-    <p>Ever since the internet has been a thing, web pages have become more than just a list of links or words.  They have expanded to be a visual representation of an idea.  Devleoping a webpage is a way to showcase our creativity while allowing the logical side to get to work.</p>
     <li>Anything else you would like to share?</li>
+  </ul>
+
+<!-- answers to the questions and more -->      
+    <p>I was born in Perth, Australia.</p>
+    <p>Ever since the internet has been a thing, web pages have become more than just a list of links or words.  They have expanded to be a visual representation of an idea.  Devleoping a webpage is a way to showcase our creativity while allowing the logical side to get to work.</p>
     <p>Working alone on a project is great.  It feels good to get it done and know that you put in all the work for it.  What is even better, though, is working with a group of people and having that sense of accomplishment when it is done that you can share with your teammates.</p>
-  </ol>
     </div>
   </article>
-
+  
+</main>
+  
 <!-- contact information including linked in and github -->
   
-  <footer id="contact">
-    <h3>Contact:</h3>
-    <div class="block-heading">
+<footer id="contact">
+  
+  <h3>Contact:</h3>
+<!-- div for the contacts -->
+  
+  <div class="block-links border-grey">
     <a href="https://www.linkedin.com/in/ericaewallbridge/">Linkedin</a>
     <a href="https://github.com/ehvai">Github</a>
-    </div>
-  </footer>
+  </div>
+</footer>
  
   <script src="script.js"></script>
 </body>
