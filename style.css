@@ -5,10 +5,10 @@
   box-sizing: border-box;
 }
 
-a:link { color: #0A0908; }
-a:visited { color: #A9927D; }
-a:hover { color: #22333B;  }
-a:active { color: #5E503F; }
+a:link { color: #0F1112; }
+a:visited { color: #14101B; }
+a:hover { color: #5E5C61;  }
+a:active { color: #65748B; }
 
 body {
   background-color: #5E503F;
@@ -21,7 +21,7 @@ body {
 }
 
 img, .border-grey {
-  border: 5px solid #587792;
+  border: 5px solid #4E5C6A;
 }
 
 nav {
@@ -40,6 +40,8 @@ h3 {
   font-size: 25x;
   color: #A9927D;
   background-color: #22333B;
+  height: 50px;
+  padding: 10px 0;
 }
 
 h1, h2, h3, footer {
@@ -51,15 +53,15 @@ main {
 }
 
 .hr-top {
-  border-top: 5px solid #C99DA3;
-  border-bottom: 5px solid #587792;
+  border-top: 5px solid #14101B;
+  border-bottom: 5px solid #4E5C6A;
   border-radius: 10px;
   width: 75%;
 }
 
 .hr-bottom {
-  border-top: 5px solid #587792;
-  border-bottom: 5px solid #C99DA3;
+  border-top: 5px solid #4E5C6A;
+  border-bottom: 5px solid #14101B;
   border-radius: 10px;
   width: 75%;
 }
@@ -71,7 +73,7 @@ main {
 }
 
 .block-heading {
-  background-color: #5E503F;
+  background-color: #65748B;
   text-align: center;
 }
 
