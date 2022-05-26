@@ -21,7 +21,7 @@ body {
 }
 
 img, .border-grey {
-  border: 5px solid #4E5C6A;
+  border: 5px solid #14101B;
 }
 
 nav {
@@ -48,7 +48,7 @@ h1, h2, h3, footer {
   text-align: center;
 }
 
-main {
+main, footer {
     margin: 100px 200px 100px 200px;
 }
 
@@ -77,7 +77,16 @@ main {
   text-align: center;
 }
 
+.block-links {
+  background-color: #C99DA3;
+  border: 5px solid #14101B;
+  align: center;
+  display: block;
+  text-align: center;
+}
+
 .center-image {
   text-align:center;
   display:block;
 }
+ 
